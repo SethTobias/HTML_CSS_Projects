@@ -1,0 +1,141 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline-block;
+  margin: auto;
+}
+
+ul li {
+  float: left;
+  margin-left: 80px;
+  margin-bottom: 40px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: grey;
+}
+
+span:hover {
+  color: orangered;
+}
+
+.container {
+  display: flex;
+  height: 500px;
+}
+
+.img.first {
+  background-color: aqua;
+  margin: auto 50px auto 50px;
+  width: 450px;
+  height: 450px;
+}
+
+.img.second {
+  background-color: lawngreen;
+  margin: auto 50px auto 50px;
+  width: 450px;
+  height: 450px;
+}
+
+.img.third {
+  background-color: crimson;
+  margin: auto 50px auto 50px;
+  width: 450px;
+  height: 450px;
+}
+
+.img.first.about {
+  background-color: aqua;
+  margin: auto 50px auto 50px;
+  width: 320px;
+  height: 330px;
+}
+
+.img.second.about {
+  background-color: lawngreen;
+  margin: auto 50px auto 50px;
+  width: 320px;
+  height: 330px;
+}
+
+.img.third.about {
+  background-color: crimson;
+  margin: auto 50px auto 50px;
+  width: 320px;
+  height: 330px;
+}
+
+.img.fourth.about {
+  background-color: #daa520;
+  margin-left: 40%;
+  margin-right: -40%;
+  width: 600px;
+  height: 400px;
+  z-index: -1;
+}
+
+.img.fifth.about {
+  background-color: salmon;
+  margin-right: 40%;
+  margin-left: -40%;
+  width: 600px;
+  height: 400px;
+  z-index: -1;
+}
+
+.box {
+  box-shadow: 2px 2px 2px 2px grey;
+  width: 600px;
+  height: 220px;
+  text-align: center;
+  margin: auto;
+  z-index: 1;
+  background-color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+footer {
+  position: relative;
+}
+
+.foot {
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.foot.index {
+  background-color: black;
+  height: 50px;
+}
+
+.foot.reuse {
+  background-color: blue;
+  height: 506px;
+}
+
+.contentAbout {
+  text-align: center;
+  width: 700px;
+  margin: auto;
+}
+
+.orange {
+  color: orangered;
+}
+
+.blue {
+  color: blue;
+}
+
+.fraud {
+  text-align: center;
+}
